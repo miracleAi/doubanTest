@@ -1,0 +1,122 @@
+{
+  "uid" : "ef7ac5f4d9c9b858",
+  "name" : "test_query_books",
+  "fullName" : "src.testcase.books.test_books.TestBooks#test_query_books",
+  "historyId" : "e8d1e344275692b61fc9e6461fc32be5",
+  "time" : {
+    "start" : 1554975958901,
+    "stop" : 1554975958901,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'BookPage' object has no attribute 'click_book_tab'",
+  "statusTrace" : "self = <src.testcase.books.test_books.TestBooks object at 0x1103c78d0>\n\n    @allure.story(\"书籍查询\")\n    def test_query_books(self):\n>       book_page = BookPage()\n\ntestcase/books/test_books.py:12: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage/bookpage.py:17: in __init__\n    self.goto_book_page()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <page.bookpage.BookPage object at 0x1103c7fd0>\n\n    def goto_book_page(self):\n>       self.click_book_tab()\nE       AttributeError: 'BookPage' object has no attribute 'click_book_tab'\n\npage/bookpage.py:22: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_and_out",
+    "time" : {
+      "start" : 1554975953745,
+      "stop" : 1554975958896,
+      "duration" : 5151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'BookPage' object has no attribute 'click_book_tab'",
+    "statusTrace" : "self = <src.testcase.books.test_books.TestBooks object at 0x1103c78d0>\n\n    @allure.story(\"书籍查询\")\n    def test_query_books(self):\n>       book_page = BookPage()\n\ntestcase/books/test_books.py:12: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage/bookpage.py:17: in __init__\n    self.goto_book_page()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <page.bookpage.BookPage object at 0x1103c7fd0>\n\n    def goto_book_page(self):\n>       self.click_book_tab()\nE       AttributeError: 'BookPage' object has no attribute 'click_book_tab'\n\npage/bookpage.py:22: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bc8e5cfa36f9b015",
+      "name" : "log",
+      "source" : "bc8e5cfa36f9b015.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "1bd08f25b70eba93",
+      "name" : "stdout",
+      "source" : "1bd08f25b70eba93.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a6b2333126223ace",
+      "name" : "stderr",
+      "source" : "a6b2333126223ace.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login_and_out::0",
+    "time" : {
+      "start" : 1554975958987,
+      "stop" : 1554975959114,
+      "duration" : 127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "我的书籍"
+  }, {
+    "name" : "story",
+    "value" : "书籍查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcase.books"
+  }, {
+    "name" : "suite",
+    "value" : "test_books"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBooks"
+  }, {
+    "name" : "host",
+    "value" : "zhu77demac.local"
+  }, {
+    "name" : "thread",
+    "value" : "8357-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcase.books.test_books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef7ac5f4d9c9b858.json",
+  "parameterValues" : [ ]
+}

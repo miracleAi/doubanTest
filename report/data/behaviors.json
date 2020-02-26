@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "我的书籍",
+    "children" : [ {
+      "name" : "书籍查询",
+      "children" : [ {
+        "name" : "test_query_books",
+        "uid" : "ad4788f502eef5ea",
+        "parentUid" : "7151763519491f9dca2a70976e63bc6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554982609684,
+          "stop" : 1554982621168,
+          "duration" : 11484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7151763519491f9dca2a70976e63bc6b"
+    } ],
+    "uid" : "d58731bbeb00cc177e09da2eae3f9eb9"
+  } ]
+}

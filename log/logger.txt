@@ -1,0 +1,2 @@
+2019-04-11 19:36:44,050 - runner.py[line:31] - INFO: Start to execute automation cases
+2019-04-11 19:37:01,380 - runner.py[line:34] - INFO: End to execute automation cases

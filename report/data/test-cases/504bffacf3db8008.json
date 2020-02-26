@@ -1,0 +1,178 @@
+{
+  "uid" : "504bffacf3db8008",
+  "name" : "test_query_books",
+  "fullName" : "src.testcase.books.test_books.TestBooks#test_query_books",
+  "historyId" : "e8d1e344275692b61fc9e6461fc32be5",
+  "time" : {
+    "start" : 1553780859407,
+    "stop" : 1553780874678,
+    "duration" : 15271
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_and_out",
+    "time" : {
+      "start" : 1553780855323,
+      "stop" : 1553780859405,
+      "duration" : 4082
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "切换到我的书籍窗口",
+      "time" : {
+        "start" : 1553780864873,
+        "stop" : 1553780864898,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "查询书籍",
+      "time" : {
+        "start" : 1553780864899,
+        "stop" : 1553780868557,
+        "duration" : 3658
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击查询",
+      "time" : {
+        "start" : 1553780868557,
+        "stop" : 1553780874630,
+        "duration" : 6073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1553780874630,
+        "stop" : 1553780874678,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e4ff51f5ac00652a",
+      "name" : "log",
+      "source" : "e4ff51f5ac00652a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "fb621c10705c4ac2",
+      "name" : "stdout",
+      "source" : "fb621c10705c4ac2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "53034ee2f0c9e8c7",
+      "name" : "stderr",
+      "source" : "53034ee2f0c9e8c7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login_and_out::0",
+    "time" : {
+      "start" : 1553780874679,
+      "stop" : 1553780874876,
+      "duration" : 197
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "书籍查询"
+  }, {
+    "name" : "feature",
+    "value" : "我的书籍"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcase.books"
+  }, {
+    "name" : "suite",
+    "value" : "test_books"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBooks"
+  }, {
+    "name" : "host",
+    "value" : "zhu77demac.local"
+  }, {
+    "name" : "thread",
+    "value" : "79347-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcase.books.test_books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "504bffacf3db8008.json",
+  "parameterValues" : [ ]
+}

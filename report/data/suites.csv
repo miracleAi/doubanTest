@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Apr 11 19:36:49 CST 2019","Thu Apr 11 19:37:01 CST 2019","11484","src.testcase.books","test_books","TestBooks","","","test_query_books",""

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "zhu77demac.local",
+    "children" : [ {
+      "name" : "8824-MainThread",
+      "children" : [ {
+        "name" : "test_query_books",
+        "uid" : "ad4788f502eef5ea",
+        "parentUid" : "204384da999cfda6146cfe6efd91c897",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554982609684,
+          "stop" : 1554982621168,
+          "duration" : 11484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "204384da999cfda6146cfe6efd91c897"
+    } ],
+    "uid" : "82407911614290f6c9fc9f854c48c109"
+  } ]
+}
